@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 497.08 174.97">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-2 {
+        fill: #ffebfe;
+        opacity: .7;
+      }
+
+      .cls-3 {
+        fill: #8a0b85;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0" y1="87.49" x2="497.08" y2="87.49" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffc9fa"/>
+      <stop offset="1" stop-color="#f7a3f0"/>
+    </linearGradient>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur" stdDeviation="7"/>
+      <feFlood flood-color="#000" flood-opacity=".25"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect class="cls-1" width="497.08" height="174.97" rx="12" ry="12"/>
+  <g class="cls-4">
+    <path class="cls-3" d="m139.77,98.57v25.68h-22.01V53.57h30.19c7.52,0,13.25.86,17.16,2.59,3.92,1.73,7.02,4.37,9.32,7.92,2.3,3.56,3.44,7.54,3.44,11.96,0,6.73-2.35,12.17-7.04,16.31-4.69,4.14-10.96,6.21-18.8,6.21h-12.27Zm-.31-15.17h7.25c6.39,0,9.58-2.35,9.58-7.04,0-4.42-2.95-6.63-8.85-6.63h-7.97v13.67Z"/>
+    <path class="cls-3" d="m236.57,106.9v17.35h-49.55V53.57h21.7v53.33h27.86Z"/>
+    <path class="cls-3" d="m284.17,124.25l-3.99-13.93h-18.93l-4.24,13.93h-17.61l21.82-70.68h22.94l22.17,70.68h-22.14Zm-19.24-29.36h11.43l-5.72-20.5-5.72,20.5Z"/>
+    <path class="cls-3" d="m366.6,53.57l-22.12,40.75v29.93h-21.07v-29.93l-23.78-40.75h23.74l12.39,23.3,11.88-23.3h18.97Z"/>
+  </g>
+  <rect class="cls-2" x="465.26" y="37.11" width="13.26" height="50.37" rx="5" ry="5"/>
+  <rect class="cls-2" x="465.26" y="94.11" width="13.26" height="27.84" rx="5" ry="5"/>
+</svg>

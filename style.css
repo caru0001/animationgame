@@ -1,0 +1,515 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #fee5f3;
+  padding: 1rem;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 1px solid #942caa;
+}
+
+ul {
+  list-style-type: none;
+  gap: 5rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+ul li {
+  margin-right: 30px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #942caa;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+/* spil.html */
+
+#screen {
+  width: 100%;
+  aspect-ratio: 16/9;
+  position: relative;
+  overflow: hidden;
+  container-type: inline-size;
+}
+
+#game {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#start {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(assets/start_screen-01.svg);
+}
+
+#start_button {
+  width: 20%;
+  position: absolute;
+  top: 65%;
+  left: 58%;
+  aspect-ratio: 497/175;
+  cursor: pointer;
+  background-image: url(assets/play_button.svg);
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#game_over {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(assets/gameover-01.svg);
+}
+
+#level_complete {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(assets/level_complete-01.svg);
+}
+
+#play_again_button1,
+#play_again_button2 {
+  width: 25%;
+  position: absolute;
+  top: 74%;
+  left: 38%;
+  aspect-ratio: 804/175;
+  cursor: pointer;
+  background-image: url(assets/playagain_button.svg);
+  animation: pulse 1.5s infinite;
+}
+
+#game_background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-image: url(assets/game_background-01.svg);
+  pointer-events: none;
+}
+
+.hide {
+  display: none;
+}
+
+#game_elements {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#game_foreground {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  pointer-events: none;
+  background-image: url(assets/game_foreground-01.svg);
+}
+
+#game_ui {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+#score_board {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: url(assets/game_scoreboard-01.svg);
+}
+
+#life_board {
+  width: 100%;
+  position: absolute;
+  top: 1%;
+  left: 0.5%;
+  pointer-events: none;
+  display: flex;
+  gap: 0.5%;
+}
+
+#life1,
+#life2,
+#life3 {
+  width: 5%;
+  aspect-ratio: 512/498;
+  background-image: url(assets/life.svg);
+  background-size: cover;
+}
+
+.gray {
+  display: none;
+}
+
+#points {
+  font-family: "Quicksand", sans-serif;
+  font-size: xx-large;
+  margin-top: 40%;
+  margin-left: 16%;
+  color: #9126a7;
+  text-shadow: 0.1rem 0.1rem 0.5rem #61556c;
+}
+
+#game_over_points {
+  font-family: "Quicksand", sans-serif;
+  font-size: x-large;
+  margin-top: 51%;
+  margin-left: 81%;
+  color: #9126a7;
+}
+
+#level_complete_points {
+  font-family: "Quicksand", sans-serif;
+  font-size: x-large;
+  margin-top: 51%;
+  margin-left: 81%;
+  color: #9126a7;
+}
+
+#time_container {
+  position: absolute;
+  width: 4%;
+  height: 22%;
+  border: solid;
+  left: 94%;
+  top: 2%;
+  border: 0.2vw solid #9126a7;
+  box-shadow: 0.1rem 0.1rem 0.5rem #61556c;
+}
+
+#time_sprite {
+  width: 100%;
+  height: 100%;
+  transform-origin: bottom;
+}
+
+.timer {
+  animation-name: timer_kf;
+  animation-duration: 20s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes timer_kf {
+  0% {
+    transform: scaleY(1);
+    background-color: #3c8b24;
+  }
+  50% {
+    transform: scaleY(0.5);
+    background-color: #f6900c;
+  }
+  100% {
+    transform: scaleY(0);
+    background-color: #da0d0d;
+  }
+}
+
+#game_middleground {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  pointer-events: none;
+}
+
+#goodwig_container {
+  width: 12%;
+  aspect-ratio: 1/1;
+  position: absolute;
+  top: -22%;
+}
+
+#goodwig_sprite {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(assets/good_wig.svg);
+}
+
+#badwig_container {
+  width: 12%;
+  aspect-ratio: 1/1;
+  position: absolute;
+  top: -22%;
+}
+
+#badwig_sprite {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(assets/bad_wig.svg);
+}
+
+#goodmakeup_container {
+  width: 12%;
+  aspect-ratio: 1/1;
+  position: absolute;
+  top: -22%;
+}
+
+#goodmakeup_sprite {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(assets/good_makeup.svg);
+}
+
+#badmakeup_container {
+  width: 12%;
+  aspect-ratio: 1/1;
+  position: absolute;
+  top: -22%;
+}
+
+#badmakeup_sprite {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(assets/bad_makeup.svg);
+}
+
+#goodshoes_container {
+  width: 12%;
+  aspect-ratio: 1/1;
+  position: absolute;
+  top: -22%;
+}
+
+#goodshoes_sprite {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(assets/good_shoes.svg);
+}
+
+#badshoes_container {
+  width: 12%;
+  aspect-ratio: 1/1;
+  position: absolute;
+  top: -22%;
+}
+
+#badshoes_sprite {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(assets/bad_shoes.svg);
+}
+
+.pos1 {
+  left: 20%;
+}
+.pos2 {
+  left: 35%;
+}
+.pos3 {
+  left: 45%;
+}
+.pos4 {
+  left: 55%;
+}
+.pos5 {
+  left: 65%;
+}
+.pos6 {
+  left: 75%;
+}
+
+/* ----------------------- Delays --------------------- */
+
+.delay1 {
+  animation-delay: 0s;
+}
+
+.delay2 {
+  animation-delay: 0.5s;
+}
+
+.delay3 {
+  animation-delay: 1s;
+}
+
+.delay4 {
+  animation-delay: 1.5s;
+}
+
+.speed1 {
+  animation-duration: 4s;
+}
+
+.speed2 {
+  animation-duration: 2.5s;
+}
+
+.speed3 {
+  animation-duration: 1.5s;
+}
+
+.falling {
+  animation-name: falling_kf;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes falling_kf {
+  100% {
+    translate: 0 600%;
+  }
+}
+
+.freeze {
+  animation-play-state: paused;
+}
+
+.good_animation {
+  animation-name: good_animation_kf;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes good_animation_kf {
+  25% {
+    scale: 1.2;
+    opacity: 1;
+  }
+  100% {
+    rotate: 360deg;
+    scale: 0;
+    opacity: 0;
+  }
+}
+
+.bad_animation {
+  animation-name: bad_animation_kf;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes bad_animation_kf {
+  0% {
+    opacity: 1;
+    scale: 3;
+  }
+  100% {
+    opacity: 0;
+    scale: 0;
+  }
+}
+
+/* ----------------- assets ----------------------- */
+
+.asset_img1 {
+  width: 500px;
+}
+
+.asset_img2 {
+  width: 200px;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-family: "Quicksand", sans-serif;
+  color: #942caa;
+}
+
+main {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.6;
+  background-color: #f8f0f4;
+}
+
+/* ---------------------------- */
+
+@media (min-width: 1024px) {
+  .grid_1-1 {
+    align-self: start;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+.text {
+  padding: 20px;
+}
+
+p {
+  margin-bottom: 15px; /* Add space between paragraphs */
+}
+
+footer {
+  background-color: #fee5f3;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  border-top: 1px solid #942caa;
+  font-family: "Quicksand", sans-serif;
+  color: #942caa;
+  font-size: 1rem;
+}

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 614.7 584">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f41b3b;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21, .cls-22 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #22b573;
+      }
+
+      .cls-3 {
+        fill: #00ad45;
+      }
+
+      .cls-4, .cls-20 {
+        fill: #1a1a1a;
+      }
+
+      .cls-5, .cls-16 {
+        fill: #7eafcf;
+      }
+
+      .cls-23 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-6 {
+        fill: #b3b3b3;
+      }
+
+      .cls-7 {
+        fill: #333;
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient);
+        opacity: .9;
+      }
+
+      .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-10 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-11 {
+        fill: #ff92e6;
+      }
+
+      .cls-12 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-13 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-14 {
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-14, .cls-17 {
+        fill: #738d9e;
+      }
+
+      .cls-15 {
+        fill: #ffdde5;
+      }
+
+      .cls-16 {
+        filter: url(#drop-shadow-3);
+      }
+
+      .cls-18 {
+        fill: #e6a8d1;
+        filter: url(#drop-shadow-6);
+      }
+
+      .cls-19 {
+        fill: #ffb5ec;
+      }
+
+      .cls-20 {
+        filter: url(#drop-shadow-5);
+      }
+
+      .cls-21 {
+        fill: #aa131d;
+      }
+
+      .cls-22 {
+        fill: #d98cb8;
+        filter: url(#drop-shadow-4);
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="8"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".4"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6"/>
+      <feGaussianBlur result="blur-2" stdDeviation="15"/>
+      <feFlood flood-color="#000" flood-opacity=".4"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-3" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6"/>
+      <feGaussianBlur result="blur-3" stdDeviation="15"/>
+      <feFlood flood-color="#000" flood-opacity=".4"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="175.08" y1="310.96" x2="375.69" y2="310.96" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#d17c98"/>
+      <stop offset=".83" stop-color="#c9485f"/>
+      <stop offset="1" stop-color="#c94e63"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="255.92" y1="106.86" x2="117.15" y2="10.97" gradientUnits="userSpaceOnUse">
+      <stop offset=".12" stop-color="#dde9f0"/>
+      <stop offset="1" stop-color="#cfe5f0"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="365.27" cy="162.94" fx="365.27" fy="162.94" r="62.59" gradientTransform="translate(-1.97 4.11) rotate(-.76) scale(.95 1) skewX(-.08)" gradientUnits="userSpaceOnUse">
+      <stop offset=".61" stop-color="#bddbe9"/>
+      <stop offset="1" stop-color="#b6d0db"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="304.88" cy="178.43" fx="304.88" fy="178.43" r="54.02" gradientTransform="translate(7.58 -12.47) rotate(-1.11) scale(1.15 1.13) skewX(.04)" gradientUnits="userSpaceOnUse">
+      <stop offset=".72" stop-color="#bfdce9"/>
+      <stop offset="1" stop-color="#b4d1db"/>
+    </radialGradient>
+    <filter id="drop-shadow-4" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6"/>
+      <feGaussianBlur result="blur-4" stdDeviation="15"/>
+      <feFlood flood-color="#000" flood-opacity=".4"/>
+      <feComposite in2="blur-4" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-5" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6"/>
+      <feGaussianBlur result="blur-5" stdDeviation="15"/>
+      <feFlood flood-color="#000" flood-opacity=".4"/>
+      <feComposite in2="blur-5" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-6" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6"/>
+      <feGaussianBlur result="blur-6" stdDeviation="15"/>
+      <feFlood flood-color="#000" flood-opacity=".4"/>
+      <feComposite in2="blur-6" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <circle class="cls-3" cx="292" cy="292" r="292"/>
+  <circle class="cls-2" cx="292.71" cy="291.79" r="260.64"/>
+  <g id="Lipstick" class="cls-23">
+    <path class="cls-9" d="m141.84,370.29v.38c0,.47-.19.94-.56,1.22l-.28.28c.56-.66.85-1.31.85-1.88Z"/>
+    <path class="cls-1" d="m104.75,125.15c7.7,8.17,12.02,14.93,16.53,24.42h0c1.69,2.35,2.72,5.17,2.72,8.27v37.76c0,.56-.47,1.03-1.13,1.03h-34.47c-.56,0-1.03-.47-1.03-1.03v-36.54c0-1.31.19-2.54.47-3.76v-.66c1.03-14.84,9.02-37.94,16.91-29.49"/>
+    <g>
+      <polygon class="cls-19" points="136.21 264.15 75.16 264.15 75.16 253.82 79.86 253.82 79.86 196.53 131.51 196.53 131.51 253.82 136.21 253.82 136.21 264.15"/>
+      <path class="cls-19" d="m141.75,262.65v105.85c0,.56-.28,1.22-.85,1.88-1.5,1.97-5.07,4.13-9.3,6.01-5.64,2.44-12.4,4.32-17.09,4.32h-15.97c-9.39,0-29.12-6.57-29.12-11.27v-106.79c0-.09.09-.28.28-.28h71.85c.09,0,.19.09.19.28Z"/>
+    </g>
+    <rect class="cls-11" x="75.07" y="253.92" width="61.05" height="8.45"/>
+    <path class="cls-21" d="m121.84,150.69c4.41,8.92,1.88,13.99-10.52,13.99-7.61,0-12.4,0-15.22-14.75-2.63-13.43-.56-32.12,7.61-24.51,10.8,10.14,13.15,15.03,18.13,25.27Z"/>
+    <path class="cls-15" d="m132.36,321.54h0c-2.07,0-3.76-1.69-3.76-3.76v-41.33c0-2.07,1.69-3.76,3.76-3.76h0c2.07,0,3.76,1.69,3.76,3.76v41.33c0,2.07-1.69,3.76-3.76,3.76Z"/>
+    <path class="cls-15" d="m124.38,227.62h0c-1.31,0-2.35-1.03-2.35-2.35v-19.72c0-1.31,1.03-2.35,2.35-2.35h0c1.31,0,2.35,1.03,2.35,2.35v19.72c0,1.31-1.03,2.35-2.35,2.35Z"/>
+    <path class="cls-11" d="m85.4,279.27c0,5.73-1.31,64.81-4.13,64.81s-6.2-59.08-6.2-64.81,2.35-10.33,5.17-10.33,5.17,4.6,5.17,10.33Z"/>
+  </g>
+  <ellipse class="cls-14" cx="352.62" cy="179.91" rx="102.39" ry="114.79"/>
+  <ellipse class="cls-5" cx="353.06" cy="179.59" rx="95.03" ry="106.53"/>
+  <path class="cls-17" d="m280.35,388.05c-85.08,0-143.38-27.35-143.38-64.21,0-48.75,58.3-64.21,143.38-64.21s131.54,22.59,132.71,64.21c1,35.45-47.63,64.21-132.71,64.21Z"/>
+  <path class="cls-16" d="m280.39,384.12c-80.12,0-135.02-25.34-135.02-59.49,0-45.17,54.9-59.49,135.02-59.49s123.87,20.93,124.97,59.49c.94,32.84-44.85,59.49-124.97,59.49Z"/>
+  <path class="cls-8" d="m277.98,350.53c-59,0-102.9-16.48-102.9-37.22,0-27.42,40.61-41.93,99.61-41.93,77.47,0,100.18,19.66,100.99,43.07.69,19.94-38.71,36.08-97.7,36.08Z"/>
+  <ellipse class="cls-10" cx="352.62" cy="173.68" rx="70.66" ry="77.96"/>
+  <path class="cls-17" d="m409.73,316.81s-16.21,46.81-134.9,44.45c-118.7-2.36-136.07-49.85-136.07-49.85-.61,30.62,60.15,54.71,134.97,56.2,74.83,1.49,135.38-20.18,135.99-50.8Z"/>
+  <path class="cls-13" d="m398.89,121.39l1.68-1.6,1.28-1.16c-.52-.42-1.03-.85-1.53-1.3-.69-.4-1.25-.94-1.67-1.58-.71-.7-1.41-1.41-2.11-2.12-1.87-1.9-3.96-3.56-5.89-5.4h-3.01l-.04-.05-.05.05-97.34,92.68c.48.59.86,1.26,1.11,1.98.52,1.48.7,3.05,1.13,4.55.56.97.97,2.02,1.36,3.07.07.19.22.51.28.64.13.21.32.5.4.62.17.2.47.55.51.6.51.62,1.04,1.25,1.48,1.92.19.29.36.59.51.91.39.53.67,1.14.87,1.79h.87s.05-.3.05-.3l.08.09,100.09-95.3-.06-.07v.1h-.12l.11-.11h0Z"/>
+  <path class="cls-12" d="m305.73,227.48c1.11.98,1.85,2.23,2.79,3.34.03.04.05.06.08.09.06.05.14.11.23.18.67.54,1.38,1.03,2.05,1.56,1.08.84,2.07,1.72,3.01,2.64l101.46-94.17c-.17-.24-.34-.5-.48-.79-.95-1.85-1.67-3.79-2.35-5.75-.43-1.25-.83-2.84-1.71-3.88-.27-.32-.49-.64-.69-.97l-100.72,93.47-.02-.02-4.36,3.75c.24.18.48.35.72.56Z"/>
+  <rect class="cls-22" x="426.03" y="243.11" width="56.57" height="218.37" rx="12" ry="12" transform="translate(265.15 895.19) rotate(-108.58)"/>
+  <path class="cls-20" d="m114.39,460.94c-19.94-71.34-3.24-68.05,32.15-77.94,35.4-9.89,95.71,4.04,105.6,39.44,9.89,35.4-34.37,78.86-69.77,88.75-35.4,9.89-48.05,21.09-67.99-50.25Z"/>
+  <rect class="cls-18" x="263.56" y="335.64" width="56.57" height="142.55" rx="12" ry="12" transform="translate(-.87 813.21) rotate(-108.58)"/>
+  <rect class="cls-6" x="325.76" y="375.82" width="56.57" height="20.36" transform="translate(100.97 844.59) rotate(-108.58)"/>
+  <path class="cls-4" d="m236.07,403.55l13.95,41.49c2.89,8.6-11.23,27.6-17.39,33.56l7.45-9.61c-8.46,2.84-17.93-5.02-20.82-13.61l-13.95-41.49c-2.89-8.6,1.67-17.96,10.13-20.8l-17.47-7.52c8.46-2.84,35.22,9.38,38.11,17.98Z"/>
+  <path class="cls-7" d="m219.43,417.05h0c.62,2.91-11.7,7.31-14.61,7.94l-46.53,9.98c-2.91.62-14.82.14-15.44-2.77h0c-.62-2.91,10.26-7.19,13.17-7.81l46.53-9.98c2.91-.62,16.25-.27,16.88,2.64Z"/>
+  <path class="cls-7" d="m205.51,394.89h0c.73,2.88-13.45,8.52-16.33,9.26l-46.12,11.73c-2.88.73-19.58,2.96-20.31.07h0c-.73-2.88,14.76-9.82,17.64-10.56l46.12-11.73c2.88-.73,18.27-1.65,19,1.23Z"/>
+</svg>
